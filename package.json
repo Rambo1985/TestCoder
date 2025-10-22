@@ -1,0 +1,29 @@
+{
+  "name": "browser-use-automation-framework",
+  "version": "1.0.0",
+  "description": "A UI automation framework based on browser-use",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "automation",
+    "ui-testing",
+    "browser-use",
+    "e2e",
+    "testing"
+  ],
+  "author": "Automation Team",
+  "license": "MIT",
+  "dependencies": {
+    "@browser-use/core": "^1.0.0",
+    "puppeteer": "^21.0.0",
+    "playwright": "^1.38.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "eslint": "^8.45.0"
+  }
+}
